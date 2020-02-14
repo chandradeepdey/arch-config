@@ -1,0 +1,2 @@
+## Preserve theme and scaling settings for apps run with sudo
+Defaults env_keep += "XDG_CURRENT_DESKTOP"
