@@ -1,2 +1,2 @@
 ## Preserve theme and scaling settings for apps run with sudo
-Defaults env_keep += "XDG_CURRENT_DESKTOP GTK_USE_PORTAL QT_AUTO_SCREEN_SCALE_FACTOR"
+Defaults env_keep += "XDG_CURRENT_DESKTOP GTK_USE_PORTAL"
