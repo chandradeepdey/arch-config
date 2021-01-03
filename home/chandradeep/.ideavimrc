@@ -1,4 +1,6 @@
-set number
-set relativenumber
+set ideajoin
 
 set hlsearch
+
+set number
+set relativenumber
