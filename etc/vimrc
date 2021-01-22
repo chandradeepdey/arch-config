@@ -23,4 +23,6 @@ set hlsearch
 
 set expandtab
 
-colorscheme slate
+if has('gui_running')
+        colorscheme slate
+endif
