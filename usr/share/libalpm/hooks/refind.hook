@@ -1,0 +1,10 @@
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Type=Package
+Target=refind
+
+[Action]
+Description = Updating rEFInd on ESP
+When=PostTransaction
+Exec=/bin/bash -c 'cp /efi/EFI/BOOT/{boot,mm}x64.efi /; mv /bootx64.efi /shimx64.efi; umount /dev/sda1; /usr/bin/refind-install --usedefault /dev/sda1 --shim /shimx64.efi --localkeys; umount /tmp/refind_install; rmdir /tmp/refind_install; mount /dev/sda1; rm -r /efi/EFI/BOOT/{icons-backup,*~}; rm /{shim,mm}x64.efi'
