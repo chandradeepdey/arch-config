@@ -1,0 +1,33 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "search.showLineNumbers": true,
+  "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
+  "git.fetchOnPull": true,
+  "git.rebaseWhenSync": true,
+  "vim.changeWordIncludesWhitespace": true,
+  "vim.hlsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.statusBarColorControl": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
+  },
+  "githubPullRequests.telemetry.enabled": false,
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Default Light+",
+  "workbench.editor.enablePreview": false,
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "vim.handleKeys": {
+    "<C-k>": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
