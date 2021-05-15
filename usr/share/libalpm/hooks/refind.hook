@@ -7,4 +7,4 @@ Target=refind
 [Action]
 Description = Updating rEFInd on ESP
 When=PostTransaction
-Exec=/bin/bash -c 'cp /efi/EFI/BOOT/{boot,mm}x64.efi /; mv /bootx64.efi /shimx64.efi; umount /dev/sda1; /usr/bin/refind-install --usedefault /dev/sda1 --shim /shimx64.efi --localkeys; umount /tmp/refind_install; rmdir /tmp/refind_install; mount /dev/sda1; rm -r /efi/EFI/BOOT/{icons-backup,*~}; rm /{shim,mm}x64.efi'
+Exec=/bin/bash -c 'cp /efi/EFI/BOOT/BOOTX64.efi /efi/EFI/BOOT/shimx64.efi; /usr/bin/refind-install --shim /efi/EFI/BOOT/shimx64.efi --localkeys --yes; rm -r /efi/EFI/refind/{icons-backup,BOOT.CSV,*~}; rm /efi/EFI/BOOT/shimx64.efi'

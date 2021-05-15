@@ -21,7 +21,6 @@
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f"
   },
-  "githubPullRequests.telemetry.enabled": false,
   "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "Default Light+",
   "workbench.editor.enablePreview": false,
