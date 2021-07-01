@@ -12,7 +12,6 @@
   "git.enableSmartCommit": true,
   "git.fetchOnPull": true,
   "git.rebaseWhenSync": true,
-  "vim.changeWordIncludesWhitespace": true,
   "vim.hlsearch": true,
   "vim.smartRelativeLine": true,
   "vim.statusBarColorControl": true,
@@ -22,11 +21,16 @@
     "statusBar.debuggingBackground": "#005f5f"
   },
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Default Light+",
   "workbench.editor.enablePreview": false,
   "extensions.closeExtensionDetailsOnViewChange": true,
   "vim.handleKeys": {
     "<C-k>": false
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "gitlens.views.branches.branches.layout": "list",
+  "workbench.editor.highlightModifiedTabs": true,
+  "window.titleBarStyle": "custom",
+  "window.dialogStyle": "custom",
+  "workbench.colorTheme": "Default Light+"
 }
